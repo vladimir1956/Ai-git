@@ -12,7 +12,7 @@ body {
 }
 
 body .container {
-  background: #bda661 url("img/bg.png") no-repeat bottom right;
+  background: #4d4940  no-repeat bottom right;
 }
 
 .wrapper {
@@ -127,4 +127,13 @@ body .container {
   text-decoration: none;
   line-height: 48px;
   display: block;
+}
+.photo p{
+  background-image: url('../image/fase.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 12px;
 }
